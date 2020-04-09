@@ -7,23 +7,25 @@ text2Replace=$4
 function usage {
 	progName=`basename $0`
 	echo "usage: $progName pathFile extFile text2Find text2Replace [testMode]"
-    echo "  pathFile     (mandatory) The path of the files to work to"
-    echo "  extFile      (mandatory) The extension of the files to work to"
-    echo "               with whitespaces"
-    echo "  text2Find    (mandatory) The text to find to. Use quotes for words separated"
-    echo "               with whitespaces"
-    echo "  text2Replace (mandatory) The text to find to. Use quotes for words separated"
-    echo "               with whitespaces or empty word with [testMode]"
-    echo "  testMode     (optional)  If informed, the script does the replacement but"
-    echo "               ONLY THESE changes are kept in new files with '.2' extension."
-    echo "               The next execution does not kept the previous changes"
-    echo "  "
-    echo "  Without params shows this help"
-    exit 1
+	echo "  pathFile     (mandatory) The path of the files to work to"
+	echo "  extFile      (mandatory) The extension of the files to work to"
+	echo "               with whitespaces"
+	echo "  text2Find    (mandatory) The text to find to. Use quotes for words separated"
+	echo "               with whitespaces"
+	echo "  text2Replace (mandatory) The text to find to. Use quotes for words separated"
+	echo "               with whitespaces or empty word with [testMode]"
+	echo "  testMode     (optional)  If informed, the script does the replacement but"
+	echo "               ONLY THESE changes are kept in new files with '.2' extension."
+	echo "               The next execution does not kept the previous changes"
+	echo "  "
+	echo "  Without params shows this help"
+	exit 1
 }
 
 #echo "text2Find:$text2Find:"
 
+[ -z $pathFile ] && { usage; }
+[ -z $extFile ] && { usage; }
 [ -z $text2Find ] && { usage; }
 [ -z $text2Replace ] && { usage; }
 
