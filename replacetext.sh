@@ -42,7 +42,7 @@ read -p "Press Enter to continue" option
 #find $pathFile -name "*.$extFich" -print | xargs sed -e 's/$text2Find/$text2Replace/g'
 for file in `find $pathFile -name "*.$extFich"`; do
 	if [ -n `grep -EH $text2Find $file` ]; then
-		echo encontrado $text2Find en $file
+		echo Match $text2Find found in $file
 		sed s/$text2Find/$text2Replace/g $file > $file.2
 		if [ -n $testMode ]; then
 			rm $file
