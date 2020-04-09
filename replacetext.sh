@@ -42,7 +42,9 @@ for file in `find $pathFile -name "*.$extFich"`; do
 	if [ -n `grep -EH $text2Find $file` ]; then
 		echo encontrado $text2Find en $file
 		sed s/$text2Find/$text2Replace/g $file > $file.2
-		rm $file
-		mv $file.2 $file
+		if [ -n $testMode ]; then
+			rm $file
+			mv $file.2 $file
+		fi
 	fi
 done
