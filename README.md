@@ -1,8 +1,8 @@
 # replacetext
 Bash script to replace text in all the files with a given extension under a directory
 
-usage: rplacetext.sh pathFile extFile text2Find text2Replace [testMode]
-  pathFile     (mandatory) The path of the files to work to
+<p>usage: rplacetext.sh pathFile extFile text2Find text2Replace [testMode]<\p>
+<p>  pathFile     (mandatory) The path of the files to work to<\p>
   extFile      (mandatory) The extension of the files to work to
                with whitespaces
   text2Find    (mandatory) The text to find to. Use quotes for words separated
