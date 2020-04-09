@@ -25,7 +25,7 @@ function usage {
 #echo "text2Find:$text2Find:"
 
 [ -z $text2Find ] && { usage; }
-[ -z $text2Find ] && { usage; }
+[ -z $text2Replace ] && { usage; }
 
 if [ -n $testMode ]; then
 	echo "Executing in REAL mode"
