@@ -14,16 +14,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Jose Luis Nuñez Crespi</o:Author>
   <o:LastAuthor>Jose Luis Nuñez Crespi</o:LastAuthor>
-  <o:Revision>4</o:Revision>
-  <o:TotalTime>12</o:TotalTime>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>14</o:TotalTime>
   <o:Created>2020-04-08T18:32:00Z</o:Created>
-  <o:LastSaved>2020-04-10T10:31:00Z</o:LastSaved>
+  <o:LastSaved>2020-04-10T10:33:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>111</o:Words>
+  <o:Words>110</o:Words>
   <o:Characters>611</o:Characters>
   <o:Lines>5</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>721</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>720</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -35,8 +35,6 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:Zoom>90</w:Zoom>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:HyphenationZone>21</w:HyphenationZone>
@@ -1019,9 +1017,6 @@ span.Ttulo1Car
 	color:#2F5496;
 	mso-themecolor:accent1;
 	mso-themeshade:191;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -1232,25 +1227,23 @@ ul
 
 <div class=WordSection1>
 
-<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'>#<span
-class=SpellE>replacetext</span><o:p></o:p></span></p>
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'>#replacetext<o:p></o:p></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'>Bash script
 to replace text in all the files with a given extension under a directory<o:p></o:p></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='mso-ansi-language:EN-US'>usage</span></b><span
-lang=EN-US style='mso-ansi-language:EN-US'>: replacetext.sh <span class=SpellE>pathFile</span>
-<span class=SpellE>extFile</span> text2Find [text2Replace] [<span class=SpellE>testMode</span>]<o:p></o:p></span></p>
+lang=EN-US style='mso-ansi-language:EN-US'>: replacetext.sh pathFile extFile
+text2Find [text2Replace] [testMode]<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:35.4pt'><span class=SpellE><b><span
-lang=EN-US style='mso-ansi-language:EN-US'>pathFile</span></b></span><b><span
-lang=EN-US style='mso-ansi-language:EN-US'><span style='mso-tab-count:1'>               </span></span></b><span
+<p class=MsoNormal style='margin-left:35.4pt'><b><span lang=EN-US
+style='mso-ansi-language:EN-US'>pathFile<span style='mso-tab-count:1'>               </span></span></b><span
 lang=EN-US style='mso-ansi-language:EN-US'>(mandatory) The path of the files to
 work to<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:35.4pt'><span class=SpellE><b><span
-lang=EN-US style='mso-ansi-language:EN-US'>extFile</span></b></span><span
-lang=EN-US style='mso-ansi-language:EN-US'><span style='mso-tab-count:2'>                 </span>(mandatory)
+<p class=MsoNormal style='margin-left:35.4pt'><b><span lang=EN-US
+style='mso-ansi-language:EN-US'>extFile</span></b><span lang=EN-US
+style='mso-ansi-language:EN-US'><span style='mso-tab-count:2'>                 </span>(mandatory)
 The extension of the files to work to<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:35.4pt'><b><span lang=EN-US
@@ -1260,13 +1253,13 @@ The text to find to. Use quotes for words separated with whitespaces<o:p></o:p><
 
 <p class=MsoNormal style='margin-left:35.4pt'><b><span lang=EN-US
 style='mso-ansi-language:EN-US'>text2Replace</span></b><span lang=EN-US
-style='mso-ansi-language:EN-US'><span style='mso-tab-count:1'>     </span>(mandatory)
+style='mso-ansi-language:EN-US'><span style='mso-tab-count:1'>     </span>(optional)
 The text to find to. Use quotes for words separated with whitespaces or empty
-word with [<span class=SpellE>testMode</span>]<o:p></o:p></span></p>
+word with [testMode]<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:106.2pt;text-indent:-70.8pt'><span
-class=SpellE><b><span lang=EN-US style='mso-ansi-language:EN-US'>testMode</span></b></span><span
-lang=EN-US style='mso-ansi-language:EN-US'> <span style='mso-tab-count:1'>           </span>(optional)<span
+<p class=MsoNormal style='margin-left:106.2pt;text-indent:-70.8pt'><b><span
+lang=EN-US style='mso-ansi-language:EN-US'>testMode</span></b><span lang=EN-US
+style='mso-ansi-language:EN-US'> <span style='mso-tab-count:1'>           </span>(optional)<span
 style='mso-spacerun:yes'>  </span>If informed, the script does the replacement
 but ONLY THESE changes are kept in new files with '.2' extension. The next
 execution does not keep the previous changes<o:p></o:p></span></p>
