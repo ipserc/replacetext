@@ -12,7 +12,7 @@ function usage {
 	echo "               with whitespaces or empty word with [testMode]"
 	echo "  testMode     (optional)  If informed, the script does the replacement but"
 	echo "               ONLY THESE changes are kept in new files with '.2' extension."
-	echo "               The next execution does not kept the previous changes"
+	echo "               The next execution does not keep the previous changes"
 	echo "  "
 	echo "  Without params shows this help"
 	exit 1

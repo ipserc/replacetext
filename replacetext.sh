@@ -12,11 +12,11 @@ function usage {
 	echo "               with whitespaces"
 	echo "  text2Find    (mandatory) The text to find to. Use quotes for words separated"
 	echo "               with whitespaces"
-	echo "  text2Replace (mandatory) The text to find to. Use quotes for words separated"
+	echo "  text2Replace (optional)  The text to find to. Use quotes for words separated"
 	echo "               with whitespaces or empty word with [testMode]"
 	echo "  testMode     (optional)  If informed, the script does the replacement but"
 	echo "               ONLY THESE changes are kept in new files with '.2' extension."
-	echo "               The next execution does not kept the previous changes"
+	echo "               The next execution does not keep the previous changes"
 	echo "  "
 	echo "  Without params shows this help"
 	exit 1
@@ -27,7 +27,6 @@ function usage {
 [ -z $pathFile ] && { usage; }
 [ -z $extFile ] && { usage; }
 [ -z $text2Find ] && { usage; }
-[ -z $text2Replace ] && { usage; }
 
 if [ -n $testMode ]; then
 	echo "Executing in REAL mode"
