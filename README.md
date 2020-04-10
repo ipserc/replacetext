@@ -14,16 +14,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Jose Luis Nuñez Crespi</o:Author>
   <o:LastAuthor>Jose Luis Nuñez Crespi</o:LastAuthor>
-  <o:Revision>5</o:Revision>
+  <o:Revision>6</o:Revision>
   <o:TotalTime>14</o:TotalTime>
   <o:Created>2020-04-08T18:32:00Z</o:Created>
-  <o:LastSaved>2020-04-10T10:33:00Z</o:LastSaved>
+  <o:LastSaved>2020-04-10T11:15:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
   <o:Words>110</o:Words>
-  <o:Characters>611</o:Characters>
+  <o:Characters>609</o:Characters>
   <o:Lines>5</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>720</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>718</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -58,6 +58,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
    <w:DontFlipMirrorIndents/>
    <w:OverrideTableStyleHps/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -280,6 +281,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="HTML Variable"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="annotation subject"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="No List"/>
@@ -372,8 +375,12 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Web 2"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Balloon Text"/>
   <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
   <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
   <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
   <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
@@ -654,14 +661,14 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-font-charset:0;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
-	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+	mso-font-signature:3 0 0 0 1 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
 	mso-font-charset:0;
 	mso-generic-font-family:swiss;
 	mso-font-pitch:variable;
-	mso-font-signature:-536859905 1073786111 1 0 511 0;}
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -671,7 +678,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	margin-right:0cm;
 	margin-bottom:8.0pt;
 	margin-left:0cm;
-	line-height:107%;
+	line-height:106%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri",sans-serif;
@@ -697,11 +704,11 @@ h1
 	margin-bottom:8.0pt;
 	margin-left:21.6pt;
 	text-indent:-21.6pt;
-	line-height:107%;
+	line-height:106%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:1;
-	mso-list:l1 level1 lfo5;
+	mso-list:l1 level1 lfo2;
 	border:none;
 	mso-border-bottom-alt:solid #595959 .5pt;
 	mso-border-bottom-themecolor:text1;
@@ -711,6 +718,8 @@ h1
 	font-size:18.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
 	color:#2F5496;
 	mso-themecolor:accent1;
 	mso-themeshade:191;
@@ -720,8 +729,8 @@ h1
 h2
 	{mso-style-name:"Título 2\,_NIVELL 2\,Tempo Heading 2\,h2\,Chapter Title\,H2\,Subhead A\,HD2\,Heading Two\,2nd level\,AOn Heading 2\,Level 2 Topic Heading\,KJL\:1st Level\,h21\,h22\,H21\,Major\,Project 2\,RFS 2\,2\,l2\,list + change bar\,???\,Titre 2\,PA Major Section\,Chapter\,1\.Seite\,\(1\.1\,T2\,A";
 	mso-style-update:auto;
+	mso-style-noshow:yes;
 	mso-style-priority:9;
-	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Título 2 Car\,_NIVELL 2 Car\,Tempo Heading 2 Car\,h2 Car\,Chapter Title Car\,H2 Car\,Subhead A Car\,HD2 Car\,Heading Two Car\,2nd level Car\,AOn Heading 2 Car\,Level 2 Topic Heading Car\,KJL\:1st Level Car\,h21 Car\,h22 Car\,H21 Car\,Major Car\,Project 2 Car\,RFS 2 Car";
 	mso-style-next:Normal;
@@ -735,11 +744,13 @@ h2
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:2;
-	mso-list:l0 level2 lfo6;
+	mso-list:l0 level2 lfo4;
 	tab-stops:list 72.0pt;
 	font-size:15.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
 	color:#595959;
 	mso-themecolor:text1;
 	mso-themetint:166;
@@ -750,8 +761,8 @@ h2
 h2.CxSpFirst
 	{mso-style-name:"Título 2\,_NIVELL 2\,Tempo Heading 2\,h2\,Chapter Title\,H2\,Subhead A\,HD2\,Heading Two\,2nd level\,AOn Heading 2\,Level 2 Topic Heading\,KJL\:1st Level\,h21\,h22\,H21\,Major\,Project 2\,RFS 2\,2\,l2\,list + change bar\,???\,Titre 2\,PA Major Section\,Chapter\,1\.Seite\,\(1\.1\,T2\,ACxS";
 	mso-style-update:auto;
+	mso-style-noshow:yes;
 	mso-style-priority:9;
-	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Título 2 Car\,_NIVELL 2 Car\,Tempo Heading 2 Car\,h2 Car\,Chapter Title Car\,H2 Car\,Subhead A Car\,HD2 Car\,Heading Two Car\,2nd level Car\,AOn Heading 2 Car\,Level 2 Topic Heading Car\,KJL\:1st Level Car\,h21 Car\,h22 Car\,H21 Car\,Major Car\,Project 2 Car\,RFS 2 Car";
 	mso-style-next:Normal;
@@ -767,11 +778,13 @@ h2.CxSpFirst
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:2;
-	mso-list:l0 level2 lfo6;
+	mso-list:l0 level2 lfo4;
 	tab-stops:list 72.0pt;
 	font-size:15.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
 	color:#595959;
 	mso-themecolor:text1;
 	mso-themetint:166;
@@ -782,8 +795,8 @@ h2.CxSpFirst
 h2.CxSpMiddle
 	{mso-style-name:"Título 2\,_NIVELL 2\,Tempo Heading 2\,h2\,Chapter Title\,H2\,Subhead A\,HD2\,Heading Two\,2nd level\,AOn Heading 2\,Level 2 Topic Heading\,KJL\:1st Level\,h21\,h22\,H21\,Major\,Project 2\,RFS 2\,2\,l2\,list + change bar\,???\,Titre 2\,PA Major Section\,Chapter\,1\.Seite\,\(1\.1\,T2\,ACxS";
 	mso-style-update:auto;
+	mso-style-noshow:yes;
 	mso-style-priority:9;
-	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Título 2 Car\,_NIVELL 2 Car\,Tempo Heading 2 Car\,h2 Car\,Chapter Title Car\,H2 Car\,Subhead A Car\,HD2 Car\,Heading Two Car\,2nd level Car\,AOn Heading 2 Car\,Level 2 Topic Heading Car\,KJL\:1st Level Car\,h21 Car\,h22 Car\,H21 Car\,Major Car\,Project 2 Car\,RFS 2 Car";
 	mso-style-next:Normal;
@@ -799,11 +812,13 @@ h2.CxSpMiddle
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:2;
-	mso-list:l0 level2 lfo6;
+	mso-list:l0 level2 lfo4;
 	tab-stops:list 72.0pt;
 	font-size:15.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
 	color:#595959;
 	mso-themecolor:text1;
 	mso-themetint:166;
@@ -814,8 +829,8 @@ h2.CxSpMiddle
 h2.CxSpLast
 	{mso-style-name:"Título 2\,_NIVELL 2\,Tempo Heading 2\,h2\,Chapter Title\,H2\,Subhead A\,HD2\,Heading Two\,2nd level\,AOn Heading 2\,Level 2 Topic Heading\,KJL\:1st Level\,h21\,h22\,H21\,Major\,Project 2\,RFS 2\,2\,l2\,list + change bar\,???\,Titre 2\,PA Major Section\,Chapter\,1\.Seite\,\(1\.1\,T2\,ACxS";
 	mso-style-update:auto;
+	mso-style-noshow:yes;
 	mso-style-priority:9;
-	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Título 2 Car\,_NIVELL 2 Car\,Tempo Heading 2 Car\,h2 Car\,Chapter Title Car\,H2 Car\,Subhead A Car\,HD2 Car\,Heading Two Car\,2nd level Car\,AOn Heading 2 Car\,Level 2 Topic Heading Car\,KJL\:1st Level Car\,h21 Car\,h22 Car\,H21 Car\,Major Car\,Project 2 Car\,RFS 2 Car";
 	mso-style-next:Normal;
@@ -830,11 +845,13 @@ h2.CxSpLast
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:2;
-	mso-list:l0 level2 lfo6;
+	mso-list:l0 level2 lfo4;
 	tab-stops:list 72.0pt;
 	font-size:15.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
 	color:#595959;
 	mso-themecolor:text1;
 	mso-themetint:166;
@@ -845,8 +862,8 @@ h2.CxSpLast
 h3
 	{mso-style-name:"Título 3\,_NIVELL 3\,Tempo Heading 3\,h3\,Section\,H3\,H31\,H32\,H33\,H311\,\(Alt+3\)\,h31\,h32\,h311\,h33\,h312\,h34\,h313\,h35\,h314\,h36\,h315\,h37\,h316\,h38\,h317\,h39\,h318\,h310\,h319\,h3110\,h320\,h3111\,h321\,h331\,h3121\,h341\,h3131\,h351\,h3141\,h361\,h3151\,h371\,h3161\,h381\,h3171\,h391";
 	mso-style-update:auto;
+	mso-style-noshow:yes;
 	mso-style-priority:9;
-	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Título 3 Car\,_NIVELL 3 Car\,Tempo Heading 3 Car\,h3 Car\,Section Car\,H3 Car\,H31 Car\,H32 Car\,H33 Car\,H311 Car\,\(Alt+3\) Car\,h31 Car\,h32 Car\,h311 Car\,h33 Car\,h312 Car\,h34 Car\,h313 Car\,h35 Car\,h314 Car\,h36 Car\,h315 Car\,h37 Car\,h316 Car\,h38 Car\,h317 Car\,h39 Car";
 	mso-style-next:Normal;
@@ -860,12 +877,14 @@ h3
 	mso-pagination:widow-orphan;
 	page-break-after:avoid;
 	mso-outline-level:3;
-	mso-list:l1 level3 lfo5;
+	mso-list:l1 level3 lfo2;
 	mso-hyphenate:none;
 	tab-stops:38.55pt;
 	font-size:13.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	color:#7F7F7F;
@@ -876,8 +895,8 @@ h3
 h3.CxSpFirst
 	{mso-style-name:"Título 3\,_NIVELL 3\,Tempo Heading 3\,h3\,Section\,H3\,H31\,H32\,H33\,H311\,\(Alt+3\)\,h31\,h32\,h311\,h33\,h312\,h34\,h313\,h35\,h314\,h36\,h315\,h37\,h316\,h38\,h317\,h39\,h318\,h310\,h319\,h3110\,h320\,h3111\,h321\,h331\,h3121\,h341\,h3131\,h351\,h3141\,h361\,h3151\,h371\,h3161\,h381\,h3171\,h391CxS";
 	mso-style-update:auto;
+	mso-style-noshow:yes;
 	mso-style-priority:9;
-	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Título 3 Car\,_NIVELL 3 Car\,Tempo Heading 3 Car\,h3 Car\,Section Car\,H3 Car\,H31 Car\,H32 Car\,H33 Car\,H311 Car\,\(Alt+3\) Car\,h31 Car\,h32 Car\,h311 Car\,h33 Car\,h312 Car\,h34 Car\,h313 Car\,h35 Car\,h314 Car\,h36 Car\,h315 Car\,h37 Car\,h316 Car\,h38 Car\,h317 Car\,h39 Car";
 	mso-style-next:Normal;
@@ -893,12 +912,14 @@ h3.CxSpFirst
 	mso-pagination:widow-orphan;
 	page-break-after:avoid;
 	mso-outline-level:3;
-	mso-list:l1 level3 lfo5;
+	mso-list:l1 level3 lfo2;
 	mso-hyphenate:none;
 	tab-stops:38.55pt;
 	font-size:13.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	color:#7F7F7F;
@@ -909,8 +930,8 @@ h3.CxSpFirst
 h3.CxSpMiddle
 	{mso-style-name:"Título 3\,_NIVELL 3\,Tempo Heading 3\,h3\,Section\,H3\,H31\,H32\,H33\,H311\,\(Alt+3\)\,h31\,h32\,h311\,h33\,h312\,h34\,h313\,h35\,h314\,h36\,h315\,h37\,h316\,h38\,h317\,h39\,h318\,h310\,h319\,h3110\,h320\,h3111\,h321\,h331\,h3121\,h341\,h3131\,h351\,h3141\,h361\,h3151\,h371\,h3161\,h381\,h3171\,h391CxS";
 	mso-style-update:auto;
+	mso-style-noshow:yes;
 	mso-style-priority:9;
-	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Título 3 Car\,_NIVELL 3 Car\,Tempo Heading 3 Car\,h3 Car\,Section Car\,H3 Car\,H31 Car\,H32 Car\,H33 Car\,H311 Car\,\(Alt+3\) Car\,h31 Car\,h32 Car\,h311 Car\,h33 Car\,h312 Car\,h34 Car\,h313 Car\,h35 Car\,h314 Car\,h36 Car\,h315 Car\,h37 Car\,h316 Car\,h38 Car\,h317 Car\,h39 Car";
 	mso-style-next:Normal;
@@ -926,12 +947,14 @@ h3.CxSpMiddle
 	mso-pagination:widow-orphan;
 	page-break-after:avoid;
 	mso-outline-level:3;
-	mso-list:l1 level3 lfo5;
+	mso-list:l1 level3 lfo2;
 	mso-hyphenate:none;
 	tab-stops:38.55pt;
 	font-size:13.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	color:#7F7F7F;
@@ -942,8 +965,8 @@ h3.CxSpMiddle
 h3.CxSpLast
 	{mso-style-name:"Título 3\,_NIVELL 3\,Tempo Heading 3\,h3\,Section\,H3\,H31\,H32\,H33\,H311\,\(Alt+3\)\,h31\,h32\,h311\,h33\,h312\,h34\,h313\,h35\,h314\,h36\,h315\,h37\,h316\,h38\,h317\,h39\,h318\,h310\,h319\,h3110\,h320\,h3111\,h321\,h331\,h3121\,h341\,h3131\,h351\,h3141\,h361\,h3151\,h371\,h3161\,h381\,h3171\,h391CxS";
 	mso-style-update:auto;
+	mso-style-noshow:yes;
 	mso-style-priority:9;
-	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Título 3 Car\,_NIVELL 3 Car\,Tempo Heading 3 Car\,h3 Car\,Section Car\,H3 Car\,H31 Car\,H32 Car\,H33 Car\,H311 Car\,\(Alt+3\) Car\,h31 Car\,h32 Car\,h311 Car\,h33 Car\,h312 Car\,h34 Car\,h313 Car\,h35 Car\,h314 Car\,h36 Car\,h315 Car\,h37 Car\,h316 Car\,h38 Car\,h317 Car\,h39 Car";
 	mso-style-next:Normal;
@@ -958,12 +981,14 @@ h3.CxSpLast
 	mso-pagination:widow-orphan;
 	page-break-after:avoid;
 	mso-outline-level:3;
-	mso-list:l1 level3 lfo5;
+	mso-list:l1 level3 lfo2;
 	mso-hyphenate:none;
 	tab-stops:38.55pt;
 	font-size:13.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	color:#7F7F7F;
@@ -971,20 +996,39 @@ h3.CxSpLast
 	mso-themetint:128;
 	mso-fareast-language:EN-US;
 	font-weight:normal;}
-span.Ttulo3Car
-	{mso-style-name:"Título 3 Car\,_NIVELL 3 Car\,Tempo Heading 3 Car\,h3 Car\,Section Car\,H3 Car\,H31 Car\,H32 Car\,H33 Car\,H311 Car\,\(Alt+3\) Car\,h31 Car\,h32 Car\,h311 Car\,h33 Car\,h312 Car\,h34 Car\,h313 Car\,h35 Car\,h314 Car\,h36 Car\,h315 Car\,h37 Car\,h316 Car\,h38 Car\,h317 Car\,h39 Car";
+span.Ttulo1Car
+	{mso-style-name:"Título 1 Car\,_NIVELL 1 Car\,Tempo Heading 1 Car\,h1 Car\,Part Car\,Chapter Headline Car\,H1 Car\,Heading A Car\,Heading1 Car\,H1-Heading 1 Car\,1 Car\,Header 1 Car\,l1 Car\,Legal Line 1 Car\,head 1 Car\,list 1 Car\,II+ Car\,I Car\,Head 1 \(Chapter heading\) Car\,I1 Car";
 	mso-style-priority:9;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
-	mso-style-link:"Título 3\,_NIVELL 3\,Tempo Heading 3\,h3\,Section\,H3\,H31\,H32\,H33\,H311\,\(Alt+3\)\,h31\,h32\,h311\,h33\,h312\,h34\,h313\,h35\,h314\,h36\,h315\,h37\,h316\,h38\,h317\,h39\,h318\,h310\,h319\,h3110\,h320\,h3111\,h321\,h331\,h3121\,h341\,h3131\,h351\,h3141\,h361\,h3151\,h371\,h3161\,h381\,h3171\,h391";
-	mso-ansi-font-size:13.0pt;
+	mso-style-link:"Título 1\,_NIVELL 1\,Tempo Heading 1\,h1\,Part\,Chapter Headline\,H1\,Heading A\,Heading1\,H1-Heading 1\,1\,Header 1\,l1\,Legal Line 1\,head 1\,list 1\,II+\,I\,Head 1 \(Chapter heading\)\,Heading No\. L1\,1st level\,I1\,Chapter title\,l1+toc 1\,Level 1\,Level 11\,Head 1\,Head 11\,a";
+	mso-ansi-font-size:18.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
 	mso-ascii-font-family:Arial;
 	mso-hansi-font-family:Arial;
-	color:#7F7F7F;
-	mso-themecolor:text1;
-	mso-themetint:128;}
+	mso-bidi-font-family:Arial;
+	color:#2F5496;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.Ttulo1Car1
+	{mso-style-name:"Título 1 Car1\,_NIVELL 1 Car1\,Tempo Heading 1 Car1\,h1 Car1\,Part Car1\,Chapter Headline Car1\,H1 Car1\,Heading A Car1\,Heading1 Car1\,H1-Heading 1 Car1\,1 Car1\,Header 1 Car1\,l1 Car1\,Legal Line 1 Car1\,head 1 Car1\,list 1 Car1\,II+ Car1\,I Car1\,Heading No\. L1 Car";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#2F5496;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
 span.Ttulo2Car
 	{mso-style-name:"Título 2 Car\,_NIVELL 2 Car\,Tempo Heading 2 Car\,h2 Car\,Chapter Title Car\,H2 Car\,Subhead A Car\,HD2 Car\,Heading Two Car\,2nd level Car\,AOn Heading 2 Car\,Level 2 Topic Heading Car\,KJL\:1st Level Car\,h21 Car\,h22 Car\,H21 Car\,Major Car\,Project 2 Car\,RFS 2 Car";
 	mso-style-priority:9;
@@ -1002,24 +1046,77 @@ span.Ttulo2Car
 	mso-themetint:166;
 	mso-ansi-language:ES-TRAD;
 	mso-bidi-font-weight:bold;}
-span.Ttulo1Car
-	{mso-style-name:"Título 1 Car\,_NIVELL 1 Car\,Tempo Heading 1 Car\,h1 Car\,Part Car\,Chapter Headline Car\,H1 Car\,Heading A Car\,Heading1 Car\,H1-Heading 1 Car\,1 Car\,Header 1 Car\,l1 Car\,Legal Line 1 Car\,head 1 Car\,list 1 Car\,II+ Car\,I Car\,Head 1 \(Chapter heading\) Car\,I1 Car";
+span.Ttulo2Car1
+	{mso-style-name:"Título 2 Car1\,_NIVELL 2 Car1\,Tempo Heading 2 Car1\,h2 Car1\,Chapter Title Car1\,H2 Car1\,Subhead A Car1\,HD2 Car1\,Heading Two Car1\,2nd level Car1\,AOn Heading 2 Car1\,Level 2 Topic Heading Car1\,KJL\:1st Level Car1\,h21 Car1\,h22 Car1\,H21 Car1\,Major Car1\,2 Car";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#2F5496;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.Ttulo3Car
+	{mso-style-name:"Título 3 Car\,_NIVELL 3 Car\,Tempo Heading 3 Car\,h3 Car\,Section Car\,H3 Car\,H31 Car\,H32 Car\,H33 Car\,H311 Car\,\(Alt+3\) Car\,h31 Car\,h32 Car\,h311 Car\,h33 Car\,h312 Car\,h34 Car\,h313 Car\,h35 Car\,h314 Car\,h36 Car\,h315 Car\,h37 Car\,h316 Car\,h38 Car\,h317 Car\,h39 Car";
 	mso-style-priority:9;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
-	mso-style-link:"Título 1\,_NIVELL 1\,Tempo Heading 1\,h1\,Part\,Chapter Headline\,H1\,Heading A\,Heading1\,H1-Heading 1\,1\,Header 1\,l1\,Legal Line 1\,head 1\,list 1\,II+\,I\,Head 1 \(Chapter heading\)\,Heading No\. L1\,1st level\,I1\,Chapter title\,l1+toc 1\,Level 1\,Level 11\,Head 1\,Head 11\,a";
-	mso-ansi-font-size:18.0pt;
+	mso-style-link:"Título 3\,_NIVELL 3\,Tempo Heading 3\,h3\,Section\,H3\,H31\,H32\,H33\,H311\,\(Alt+3\)\,h31\,h32\,h311\,h33\,h312\,h34\,h313\,h35\,h314\,h36\,h315\,h37\,h316\,h38\,h317\,h39\,h318\,h310\,h319\,h3110\,h320\,h3111\,h321\,h331\,h3121\,h341\,h3131\,h351\,h3141\,h361\,h3151\,h371\,h3161\,h381\,h3171\,h391";
+	mso-ansi-font-size:13.0pt;
 	mso-bidi-font-size:9.0pt;
 	font-family:"Arial",sans-serif;
 	mso-ascii-font-family:Arial;
 	mso-hansi-font-family:Arial;
 	mso-bidi-font-family:Arial;
-	color:#2F5496;
+	color:#7F7F7F;
+	mso-themecolor:text1;
+	mso-themetint:128;}
+span.Ttulo3Car1
+	{mso-style-name:"Título 3 Car1\,_NIVELL 3 Car1\,Tempo Heading 3 Car1\,h3 Car1\,Section Car1\,H3 Car1\,H31 Car1\,H32 Car1\,H33 Car1\,H311 Car1\,\(Alt+3\) Car1\,h31 Car1\,h32 Car1\,h311 Car1\,h33 Car1\,h312 Car1\,h34 Car1\,h313 Car1\,h35 Car1\,h314 Car1\,h36 Car1\,h315 Car1\,h37 Car1\,h316 Car1";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#1F3763;
 	mso-themecolor:accent1;
-	mso-themeshade:191;}
+	mso-themeshade:127;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -1030,10 +1127,6 @@ span.Ttulo1Car
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
 @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:70.85pt 3.0cm 70.85pt 3.0cm;
@@ -1143,45 +1236,6 @@ div.WordSection1
 	mso-level-number-position:left;
 	margin-left:79.2pt;
 	text-indent:-79.2pt;}
-@list l2
-	{mso-list-id:2101025306;
-	mso-list-template-ids:1685631670;}
-@list l2:level1
-	{mso-level-tab-stop:36.0pt;
-	mso-level-number-position:left;
-	text-indent:-36.0pt;}
-@list l2:level2
-	{mso-level-tab-stop:72.0pt;
-	mso-level-number-position:left;
-	text-indent:-36.0pt;}
-@list l2:level3
-	{mso-level-tab-stop:108.0pt;
-	mso-level-number-position:left;
-	text-indent:-36.0pt;}
-@list l2:level4
-	{mso-level-tab-stop:144.0pt;
-	mso-level-number-position:left;
-	text-indent:-36.0pt;}
-@list l2:level5
-	{mso-level-tab-stop:180.0pt;
-	mso-level-number-position:left;
-	text-indent:-36.0pt;}
-@list l2:level6
-	{mso-level-tab-stop:216.0pt;
-	mso-level-number-position:left;
-	text-indent:-36.0pt;}
-@list l2:level7
-	{mso-level-tab-stop:252.0pt;
-	mso-level-number-position:left;
-	text-indent:-36.0pt;}
-@list l2:level8
-	{mso-level-tab-stop:288.0pt;
-	mso-level-number-position:left;
-	text-indent:-36.0pt;}
-@list l2:level9
-	{mso-level-tab-stop:324.0pt;
-	mso-level-number-position:left;
-	text-indent:-36.0pt;}
 ol
 	{margin-bottom:0cm;}
 ul
@@ -1199,13 +1253,10 @@ ul
 	mso-style-priority:99;
 	mso-style-parent:"";
 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
-	mso-para-margin-top:0cm;
-	mso-para-margin-right:0cm;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0cm;
-	line-height:107%;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
-	font-size:11.0pt;
+	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -1239,30 +1290,30 @@ text2Find [text2Replace] [testMode]<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-left:35.4pt'><b><span lang=EN-US
 style='mso-ansi-language:EN-US'>pathFile<span style='mso-tab-count:1'>               </span></span></b><span
 lang=EN-US style='mso-ansi-language:EN-US'>(mandatory) The path of the files to
-work to<o:p></o:p></span></p>
+work to.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:35.4pt'><b><span lang=EN-US
 style='mso-ansi-language:EN-US'>extFile</span></b><span lang=EN-US
 style='mso-ansi-language:EN-US'><span style='mso-tab-count:2'>                 </span>(mandatory)
-The extension of the files to work to<o:p></o:p></span></p>
+The extension of the files to work to.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:35.4pt'><b><span lang=EN-US
 style='mso-ansi-language:EN-US'>text2Find</span></b><span lang=EN-US
 style='mso-ansi-language:EN-US'><span style='mso-tab-count:1'>            </span>(mandatory)
-The text to find to. Use quotes for words separated with whitespaces<o:p></o:p></span></p>
+The text to find. Use quotes for words separated with whitespaces.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:35.4pt'><b><span lang=EN-US
 style='mso-ansi-language:EN-US'>text2Replace</span></b><span lang=EN-US
 style='mso-ansi-language:EN-US'><span style='mso-tab-count:1'>     </span>(optional)
-The text to find to. Use quotes for words separated with whitespaces or empty
-word with [testMode]<o:p></o:p></span></p>
+The text to find. Use quotes for words separated with whitespaces or empty word
+with [testMode]<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:106.2pt;text-indent:-70.8pt'><b><span
 lang=EN-US style='mso-ansi-language:EN-US'>testMode</span></b><span lang=EN-US
 style='mso-ansi-language:EN-US'> <span style='mso-tab-count:1'>           </span>(optional)<span
 style='mso-spacerun:yes'>  </span>If informed, the script does the replacement
 but ONLY THESE changes are kept in new files with '.2' extension. The next
-execution does not keep the previous changes<o:p></o:p></span></p>
+execution does not keep the previous changes.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><span
 style='mso-spacerun:yes'>  </span>Without params shows this help<o:p></o:p></span></p>
