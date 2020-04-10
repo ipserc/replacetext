@@ -8,7 +8,7 @@ function usage {
 	echo "usage: $progName text2Find text2Replace [testMode]"
 	echo "  text2Find    (mandatory) The text to find to. Use quotes for words separated"
 	echo "               with whitespaces"
-	echo "  text2Replace (optional)  The text to find to. Use quotes for words separated"
+	echo "  text2Replace (optional)  The text to find. Use quotes for words separated"
 	echo "               with whitespaces or empty word with [testMode]"
 	echo "  testMode     (optional)  If informed, the script does the replacement but"
 	echo "               ONLY THESE changes are kept in new files with '.2' extension."
